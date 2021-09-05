@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.clear{
+    clear: both;
+}
+/* START HEADER */
+.header__contact{
+    background-color:#002147;
+    text-align: center;
+}
+.header__left,.header__right{
+    float: left;
+    width: 50%;
+}
+.header__left{
+    padding-top: 10px;
+}
+.header__left p{
+    display: inline;
+    padding: 0 10px;
+    color: white;
+    font-weight: 100;
+}
+.header__left .phone{
+    margin-right: 40px;
+}
+.header__left i{
+    color: #ffc51a;
+}
+.header__right button{
+    padding: 10px 15px;
+    background-color: #ffc51a;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.header__menu{
+    margin: auto;
+    width: 75%;
+    padding-top: 10px;
+}
+.header__menu i{
+    text-align: center;
+    font-weight: 300;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #002148;
+    color: #ffc51a;
+    border-radius: 50%;
+    font-size: 15px;
+    vertical-align: bottom;
+}
+.header__menu span{
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.header__menu ul{
+    margin: 20px 0;
+}
+.header__menu li{
+    padding: 0 15px;
+    list-style: none;
+    display: inline;
+}
+.header__menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.header__menu .active{
+    color:#efc13f;
+}
+/* END HEADER */
+/* START CAROUSEL */
+.carousel{
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+/* PHỦ 1 LỚP MỜ CHE BACKGROUND BẰNG POSITION, TOP LEFT = 0,WIDTH HEIGHT 100% */
+.carousel__dark{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.4);
+}
+.carousel__content{
+    width: 75%;
+    position: absolute;
+    text-align: center;
+    bottom: -130px;
+    left: 150px;
+    right: 150px;
+}
+.carousel__bg{
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+}
+.carousel__item{
+    padding: 20px 0;
+    border-radius: 5px;
+    background-color: white;
+    border-style: none;
+    box-shadow: 2px 2px 10px 1px rgba(226, 226, 226, 0.931);
+}
+.carousel__item i{
+    color: #ffc51a;
+    font-size: 25px;
+}
+.carousel__item #italicbook{
+    font-style: italic;
+}
+.carousel__item h3{
+    padding: 15px 0;
+}
+.carousel__item p{
+    padding: 10px 20px;
+}
+.carousel__item button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ffc51a;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* END CAROUSEL */
+/* START WELCOME */
+.welcome{
+    padding-top: 250px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.welcome__content{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+.welcome__detail,.welcome__img{
+    float: left;
+    width: 50%;
+}
+.welcome__img img{
+    width: 100%;
+}
+.welcome__detail{
+    padding-right: 40px;
+}
+.welcome__detail h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.welcome__detail p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 400;
+    color: gray;
+}
+.welcome__detail button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ffc51a;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* END WELCOME */
+/* START ICON */
+.icon{
+    padding-bottom: 70px;
+}
+.icon__content{
+    width: 77%;
+    margin: auto;
+}
+.icon__bg{
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+.icon__item{
+    text-align: center;
+    background-color:#002147;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.icon__item:hover{
+    color: #ffc51a;
+}
+.icon__item i{
+    font-size: 30px;
+    padding: 20px 30px;
+}
+.icon__item p{
+    padding-bottom: 20px;
+}
+/* END ICON */
+/* START NUMBER */
+.number{
+    background-color: #f6f6f6;
+    padding: 30px 0;
+}
+.number__content{
+    width: 75%;
+    margin: auto;
+    padding: 10px 10px;
+}
+.number__item{
+    float: left;
+    width: 25%;
+}
+.number__left{
+    float: left;
+    width: 30%;
+}
+.number__left p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.number__right{
+    padding-left: 5px;
+    float: left;
+    width: 70%;
+}
+.number__right p{
+    padding-top: 5px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* END NUMBER */
+/* START ABOUT */
+.about{
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    padding: 10px 0;
+}
+.about__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(37,58,87, 0.8);
+}
+.about_content{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    color: white;
+    padding: 40px 0;
+}
+.about__left,.about__right{
+    float: left;
+    width: 50%;
+}
+.about__left{
+    padding-right:20px ;
+}
+.about__left h3{
+    font-size: 33px;
+    padding: 10px 0;
+}
+.about__left p{
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.about__right{
+    text-align: center;
+    padding-left: 35px;
+}
+.about__right img{
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.about__right h3{
+    color:#ffc51a;
+}
+.about__right p{
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+/* END ABOUT */
+/* START POST */
+.post{
+    background-color: #f6f6f6;
+    padding: 80px 0;
+}
+.post__content{
+    width: 75%;
+    margin: auto;
+}
+.post__content h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.post__left{
+    float: left;
+    width: 45%;
+    /* background-color: white; */
+}
+/* POST LEFT */
+.post__left hr{
+    margin: auto;
+    width: 95%;
+}
+.post__item{
+    background-color:white;
+    padding: 15px 0;
+}
+.post__img{
+    float: left;
+    width: 30%;
+}
+.post__img img{
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 0 0 10px;
+}
+.post__detail{
+    float: left;
+    width: 70%;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.post__detail .date{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+.post__detail h3{
+    padding-top:5px ;
+    font-size: 20px;
+}
+.button{
+    margin-top: 10px;
+    text-align: right;
+    background-color: #f6f6f6;
+}
+.button button{
+    padding: 10px 30px;
+    background-color:#ffc51a ;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+    
+
+/* POST RIGHT */
+.post__right{
+    margin-left: 50px;
+    float: left;
+    width: 45%;
+}
+.post__right h2{
+    background-color:#f6f6f6;
+    /* margin-bottom: 10px; */
+}
+.post__card{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.card__top{
+    background-color:#ffc51a;
+    color: #002147;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card__btm{
+    background-color: #002147;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 20px;
+}
+.post__text{
+    float: left;
+    width: 80%;
+    padding-left: 20px;
+}
+.post__text h3{
+    padding-top:5px ;
+    font-size: 20px;
+}
+.post__text p{
+    font-weight: 400;
+    padding: 10px 15px 5px 0;
+}
+.post__item2{
+    padding: 10px 10px;
+    background-color: white;    
+}
+.post__item3{
+    padding: 10px 10px;
+    background-color: white;
+    margin-top: 15px;
+}
+.times{
+    color: #002147;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* END POST */
+/* START FOOTER */
+.footer{
+    background-color:#002147 ;
+    padding: 20px 0;
+    color: white;
+}
+.footer__content{
+    width: 75%;
+    margin: auto;
+}
+.top__item{
+    float: left;
+    width: 33.33%;
+    padding-right:20px ;
+}
+.top__item h3{
+    padding: 20px 0;
+}
+.top__item li{
+    list-style: none;
+    padding: 10px 0;
+}
+.top__item p{
+    padding: 10px 0px;
+}
+.top__item i{
+    padding-right: 10px;
+    color:#ffc51a ;
+}
+.content__top{
+    border-bottom: 1px solid gray;
+}
+.btm__left{
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+}
+.btm__left i{
+    padding-right: 10px;
+}
+.btm__right{
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    text-align: right;
+}
+.btm__right p{
+    display: inline;
+    padding-left: 20px;
+}
+/* END FOOTER */
